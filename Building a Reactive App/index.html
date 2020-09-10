@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <label>Height (in cms): <span id="heightValue">170</span></label>
+      <input type="range" id="heightInput" min="120" max="240" value="170" />
+    </div>
+    <div>
+      <label>Weight (in kgs): <span id="weightValue">70</span></label>
+      <input type="range" id="weightInput" min="20" max="250" value="70" />
+    </div>
+    <div>
+      <p>BMI: <span id="bmi"></span></p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bacon.js/2.0.9/Bacon.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
